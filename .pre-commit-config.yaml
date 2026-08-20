@@ -6,8 +6,3 @@ repos:
         args: [--exit-non-zero-on-fix, --config=pyproject.toml]
       - id: ruff-format
         args: [--config=pyproject.toml]
-
-  - repo: https://github.com/TalanaHRM/platform-ci-workflows
-    rev: v1.0.0
-    hooks:
-      - id: validate-branch-name
