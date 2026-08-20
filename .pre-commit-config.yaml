@@ -8,6 +8,6 @@ repos:
         args: [--config=pyproject.toml]
 
   - repo: https://github.com/TalanaHRM/platform-ci-workflows
-    rev: main
+    rev: v1.0.0
     hooks:
       - id: validate-branch-name
