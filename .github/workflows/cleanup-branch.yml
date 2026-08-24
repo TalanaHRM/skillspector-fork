@@ -1,0 +1,8 @@
+name: Cleanup Branch
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  delete-branch:
+    uses: TalanaHRM/platform-ci-workflows/.github/workflows/delete-merged-branch.yml@main
